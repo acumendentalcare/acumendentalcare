@@ -75,6 +75,18 @@ header .header-split {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
 }
 
+.container > .intro::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  background: url('images/smiling-indian-family.jpg') no-repeat center center;
+  background-size: cover;
+  height: 250px;
+  border-radius: 8px;
+}
+
 h2 {
   color: #15397a;
   font-weight: 700;
@@ -95,16 +107,20 @@ h2 {
 }
 
 /* About Doctor Section */
+.doctor-section {
+  margin-top: 2rem;
+}
+
 .doctor {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .doctor img {
-  max-width: 180px;
   border-radius: 8px;
+  max-width: 180px;
   flex-shrink: 0;
   object-fit: cover;
 }
