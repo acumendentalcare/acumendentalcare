@@ -69,8 +69,8 @@ header .header-split {
 }
 
 .container > section {
-  margin-bottom: 1rem;
-  padding: 1.5rem 1.5rem;
+  margin-bottom: 0.25rem;
+  padding: 0.25rem 0.25rem;
   border-radius: 8px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
 }
@@ -108,7 +108,7 @@ h2 {
 
 /* About Doctor Section */
 .doctor-section {
-  margin-top: 2rem;
+  margin-top: 0.25rem;
 }
 
 .doctor {
