@@ -81,7 +81,7 @@ header .header-split {
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
-  background: url('images/smiling-indian-family.jpg') no-repeat center center;
+  background: url('../images/smiling-indian-family.jpg') no-repeat center center;
   background-size: cover;
   height: 250px;
   border-radius: 8px;
