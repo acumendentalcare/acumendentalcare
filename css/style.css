@@ -24,6 +24,12 @@ header.header-container {
   white-space: nowrap;
 }
 
+@media (max-width: 600px) {
+  .clinic-name {
+    font-size: 2rem;
+  }
+}
+
 header .header-split {
   display: flex;
   justify-content: space-between;
